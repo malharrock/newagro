@@ -1,0 +1,1 @@
+const form=document.getElementById('contactForm');const status=document.getElementById('formStatus');form?.addEventListener('submit',e=>{e.preventDefault();status.textContent='The contact page is ready. Connect a verified company email or form backend to receive enquiries.';});
